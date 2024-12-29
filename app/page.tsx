@@ -7,6 +7,7 @@ import { studentList } from './data'
 export default function Home() {
   const [text, setText] = useState('')
 
+  // eslint-disable-next-line
   const onChange = (e: any) => {
     const t = e.target.value;
     setText(t)
